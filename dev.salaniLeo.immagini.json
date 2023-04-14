@@ -224,7 +224,7 @@
                     "type" : "git",
                     "url" : "https://github.com/SalaniLeo/immagini-flatpak-repo.git",
                     "tag" : "0.1.0",
-                    "commit" : "d9dc31fe780ccc5162f00d603263ee65a761fd64"
+                    "commit" : "3e5d1b22cf16db20fd87283aa825ec71177c04d1"
                 }
             ]
         }
