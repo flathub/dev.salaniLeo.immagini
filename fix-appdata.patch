@@ -1,0 +1,61 @@
+From 0d442b7b9d8e85533a7f72b57009d6a89f07d6b3 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Tue, 6 Aug 2024 15:22:44 +0300
+Subject: [PATCH] Fix appdata papercuts
+
+---
+ assets/dev.salaniLeo.immagini.appdata.xml.in | 11 ++++++-----
+ assets/dev.salaniLeo.immagini.desktop.in     |  2 +-
+ 2 files changed, 7 insertions(+), 6 deletions(-)
+
+diff --git a/assets/dev.salaniLeo.immagini.appdata.xml.in b/assets/dev.salaniLeo.immagini.appdata.xml.in
+index ec2ad3d..298289a 100644
+--- a/assets/dev.salaniLeo.immagini.appdata.xml.in
++++ b/assets/dev.salaniLeo.immagini.appdata.xml.in
+@@ -14,26 +14,27 @@
+   <url type="homepage">https://github.com/SalaniLeo/Immagini</url>
+   <metadata_license>CC-BY-SA-3.0</metadata_license>
+   <project_license>GPL-3.0</project_license>
++  <developer_name>Leonardo Salani</developer_name>
+   <content_rating type="oars-1.1" />
+   <screenshots>
+     <screenshot type="default">
+-      <image>https://raw.githubusercontent.com/SalaniLeo/Immagini/master/assets/screenshots/screenshot1.png</image>
++      <image>https://raw.githubusercontent.com/SalaniLeo/immagini-flatpak-repo/master/assets/screenshots/screenshot1.png</image>
+       <caption>Library</caption>
+     </screenshot>
+     <screenshot type="default">
+-      <image>https://raw.githubusercontent.com/SalaniLeo/Immagini/master/assets/screenshots/screenshot2.png</image>
++      <image>https://raw.githubusercontent.com/SalaniLeo/immagini-flatpak-repo/master/assets/screenshots/screenshot2.png</image>
+       <caption>New image page</caption>
+     </screenshot>
+     <screenshot type="default">
+-      <image>https://raw.githubusercontent.com/SalaniLeo/Immagini/master/assets/screenshots/screenshot3.png</image>
++      <image>https://raw.githubusercontent.com/SalaniLeo/immagini-flatpak-repo/master/assets/screenshots/screenshot3.png</image>
+       <caption>New image page with advanced options</caption>
+     </screenshot>
+     <screenshot type="default">
+-      <image>https://raw.githubusercontent.com/SalaniLeo/Immagini/master/assets/screenshots/screenshot4.png</image>
++      <image>https://raw.githubusercontent.com/SalaniLeo/immagini-flatpak-repo/master/assets/screenshots/screenshot4.png</image>
+       <caption>Preferences</caption>
+     </screenshot>
+     <screenshot type="default">
+-      <image>https://raw.githubusercontent.com/SalaniLeo/Immagini/master/assets/screenshots/screenshot5.png</image>
++      <image>https://raw.githubusercontent.com/SalaniLeo/immagini-flatpak-repo/master/assets/screenshots/screenshot5.png</image>
+       <caption>Image options</caption>
+     </screenshot>
+   </screenshots>
+diff --git a/assets/dev.salaniLeo.immagini.desktop.in b/assets/dev.salaniLeo.immagini.desktop.in
+index 2d2f78f..f235425 100755
+--- a/assets/dev.salaniLeo.immagini.desktop.in
++++ b/assets/dev.salaniLeo.immagini.desktop.in
+@@ -4,5 +4,5 @@ Exec=immagini
+ Icon=dev.salaniLeo.immagini
+ Terminal=false
+ Type=Application
+-Categories=GTK;
++Categories=GTK;Utility;
+ StartupNotify=true
+--
+libgit2 1.7.2
+
