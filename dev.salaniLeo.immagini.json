@@ -225,6 +225,10 @@
                     "url" : "https://github.com/SalaniLeo/immagini-flatpak-repo.git",
                     "tag" : "0.1.0",
                     "commit" : "e93dc3367748864022fd244720ef773b27d5a6f2"
+                },
+                {
+                    "type" : "patch",
+                    "path" : "fix-appdata.patch"
                 }
             ]
         }
